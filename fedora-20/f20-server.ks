@@ -10,8 +10,8 @@ url --mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=fedora-20&arch
 repo --name=updates
 
 # Language and keyboard setup
-lang en_US.UTF-8
-keyboard us
+lang en_GB.UTF-8
+keyboard uk
 
 # Configure networking without IPv6, firewall off
 
@@ -33,7 +33,7 @@ rootpw Asdfqwerty
 authconfig --enableshadow --passalgo=sha512
 
 # SELinux enabled
-selinux --enforcing
+selinux --permissive
 
 # Disable anything graphical
 skipx
